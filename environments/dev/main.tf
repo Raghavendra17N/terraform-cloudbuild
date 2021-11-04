@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket    =   "${project}-tfstate"
+    bucket    =   "nice-proposal-229011-tfstate"
     prefix    =   "env/dev"
   }
   
