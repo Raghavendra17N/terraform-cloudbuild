@@ -22,7 +22,7 @@ provider "google" {
 module "gke" {
 
   source                = "../../modules/GKE"
-  name                  = "gke-pratice-1"
+  cluster_name          = "gke-pratice-1"
   location              = "us-central1-a"
   gke_service_acct      = "83608490393-compute@developer.gserviceaccount.com"
   #node_location        = ["us-central1-a"]
